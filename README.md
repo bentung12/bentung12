@@ -22,7 +22,7 @@ Other tasks I've worked on include making an [alarm-clock](https://github.com/be
 
 ## Machine Learning Research Project
 
-Throughout the past year, I've also been working on improving the resilience of image recognition models using **in-situ analog computing hardware (SONOS)** under increasing amounts of radiation. The [cross-sim](https://github.com/bentung12/cross-sim/tree/pytorch) repository was developed by Sandia Labs to mimic the performance of analog memristive chips such as the SONOS chip in python. I developed multiple image recognition models using PyTorch and applied multiple training and correction techniques to eventually improve the resilience of the models against radiation by about 10 times!
+Throughout the past year, I've also been working on improving the resilience of image recognition models using **in-situ analog computing hardware (SONOS)** under increasing amounts of radiation. The [cross-sim](https://github.com/bentung12/cross-sim/tree/pytorch) repository was developed by Sandia Labs to mimic the performance of analog memristive chips such as the SONOS chip in python. I developed multiple image recognition models using PyTorch and applied multiple training/correction techniques to eventually improve the resilience of the models against radiation by about 10 times!
 
 Take a look at these two folders in the repository for more information about my code and results.
 
