@@ -29,5 +29,3 @@ Take a look at these two folders in the repository for more information about my
 [tiny_imagenet](https://github.com/bentung12/cross-sim/tree/pytorch/applications/dnn/torch/tiny_imagenet)
 
 [tiny_imagenet_radiation](https://github.com/bentung12/cross-sim/tree/pytorch/applications/dnn/torch/tiny_imagenet_radiation)
-
-<img width="938" height="686" alt="image" src="https://github.com/user-attachments/assets/a7222648-287a-44db-81be-040ea087f563" />
