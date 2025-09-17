@@ -8,7 +8,7 @@ Please take a look at any of my repositories, and I'm happy to answer any questi
 
 ## FPGA/Verilog Projects
 
-One of my favorite concentrations in Electrical Engineering is **System Verilog**. I love drawing, designing, and testing the solutions that can make up a very complex system to do some very cool tasks.
+One of my favorite concentrations in Electrical Engineering is **digital circuit design**. I love drawing, designing, and testing the solutions that can make up a very complex system to do some very cool tasks.
 
 One of the tasks I programmed an FPGA to do was play Flappy Bird on a VGA screen!
 
