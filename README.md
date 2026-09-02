@@ -1,8 +1,8 @@
 # Welcome to My Page!
 
-My name is Benjamin Tung, and I'm currently a 4th year Electrical Engineering student at Arizona State. Throughout my studies, I've worked on a number of projects, which I've decided to archive here.
+My name is Benjamin Tung, and I'm currently an incoming Electrical and Computer Engineering Masters student at UCLA. Throughout my studies, I've worked on a number of projects, which I've decided to archive here.
 
-Please take a look at any of my repositories, and I'm happy to answer any questions or provide supporting material through email (tbenjam4@asu.edu) or [Linkedin](https://www.linkedin.com/in/benjamin-tung-b5165420a/)!
+Please take a look at any of my repositories, and I'm happy to answer any questions or provide supporting material through [Linkedin](https://www.linkedin.com/in/benjamin-tung-b5165420a/)!
 
 ---
 
@@ -21,7 +21,7 @@ Other tasks I've worked on include making an [alarm-clock](https://github.com/be
 ---
 
 ## Machine Learning Research Project
-During my senior year capstone, I've also been working on improving the resilience of image recognition models using **in-situ analog computing hardware (SONOS)** under increasing amounts of radiation. The [cross-sim](https://github.com/bentung12/cross-sim/tree/pytorch) repository was developed by Sandia Labs to mimic the performance of analog memristive chips such as the SONOS chip in python. I developed multiple image recognition models using PyTorch and applied multiple training/correction techniques to eventually improve the resilience of the models against radiation by about 10 times!
+During my senior year capstone, I've worked on improving the resilience of image recognition models using **in-situ analog computing hardware (SONOS)** under increasing amounts of radiation. The [cross-sim](https://github.com/bentung12/cross-sim/tree/pytorch) repository was developed by Sandia Labs to mimic the performance of analog memristive chips such as the SONOS chip in python. I developed multiple image recognition deep learning models using PyTorch and applied multiple training/correction techniques to eventually improve the resilience of the models against radiation by about 10 times!
 
 Take a look at these two folders in the repository for more information about my code and results.
 
