@@ -26,7 +26,7 @@ Previously: **NXP Semiconductors** (3D chiplet packaging) · **Samsung Austin Se
 
 Senior capstone. Marinella group, ASU, in collaboration with Sandia National Labs.
 
-**Problem:** Analog in-memory computing does matrix multiplication inside the memory array, making neural network inference far more energy-efficient. But the cells store weights as trapped charge, and radiation knocks that charge loose. This results in weights drifting and accuracy collapses, particularly in high radiation applications such as satellites.
+**Problem:** Analog in-memory computing can do matrix multiplication using a memory array, making neural network inference far more energy-efficient than traditional methods. However, these cells store weights as trapped charge, and radiation can knock that charge loose. This results in weights drifting and accuracy collapses, particularly in high radiation applications such as satellites.
 
 **Solution**
 
