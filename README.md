@@ -1,30 +1,46 @@
-# Welcome to My Page!
+## Benjamin Tung
 
-My name is Benjamin Tung, and I'm currently an incoming Electrical and Computer Engineering Masters student at UCLA. Throughout my studies, I've worked on a number of projects, which I've decided to archive here.
+MS Electrical & Computer Engineering @ UCLA — Integrated Circuit Design
+BSEE, Arizona State, 2026 · Exchange year in EE at National Taiwan University
 
-Please take a look at any of my repositories, and I'm happy to answer any questions or provide supporting material through [Linkedin](https://www.linkedin.com/in/benjamin-tung-b5165420a/)!
+Previously: **NXP Semiconductors** (3D chiplet packaging) · **Samsung Austin Semiconductor** (2 summers)
+
+[LinkedIn](https://www.linkedin.com/in/benjamin-tung-b5165420a/) — happy to send supporting material for anything here.
 
 ---
 
-## FPGA/Verilog Projects
+### FPGA / Digital Design
 
-One of my favorite concentrations in Electrical Engineering is **digital circuit design**. I love drawing, designing, and testing the solutions that can make up a very complex system to do some very cool tasks.
-
-One of the tasks I programmed an FPGA to do was play Flappy Bird on a VGA screen!
-
-[flappy-bird](https://github.com/bentung12/flappy-bird)
+| Project | Description |
+|---|---|
+| **[flappy-bird](https://github.com/bentung12/flappy-bird)** | Flappy Bird in SystemVerilog, rendered to VGA. Each pixel's color computed on demand at 25 MHz. |
+| **[risc_v-microprocessor](https://github.com/bentung12/risc_v-microprocessor)** | 5-stage pipelined RISC-V core in Chisel. Forwarding, hazard detection, branches resolved in ID to halve the mispredict penalty. |
+| **[simple-microprocessor](https://github.com/bentung12/simple-microprocessor)** | 12-bit CPU with an ISA I designed, plus a debug mux and slow clock for single-stepping on the board. |
+| **[alarm-clock](https://github.com/bentung12/alarm-clock)** | 24-hour clock built from one parameterized counter module at six different moduli. |
 
 ![Flappy Bird Demo](https://github.com/bentung12/flappy-bird/blob/main/flappy_bird.gif)
 
-Other tasks I've worked on include making an [alarm-clock](https://github.com/bentung12/alarm-clock) and a [simple-microprocessor](https://github.com/bentung12/simple-microprocessor) on an FPGA! Feel free to go to these repositories for more information on features and to dig into the code.
+---
+
+### Research — Analog In-Memory Computing Under Radiation
+
+Senior capstone. Marinella group, ASU, in collaboration with Sandia National Labs.
+
+**Problem:** Analog in-memory computing does matrix multiplication inside the memory array, making neural network inference far more energy-efficient. But the cells store weights as trapped charge, and radiation knocks that charge loose. This results in weights drifting and accuracy collapses, particularly in high radiation applications such as satellites.
+
+**Solution**
+
+- Modeled SONOS charge-trap arrays under total ionizing dose in [CrossSim](https://github.com/bentung12/cross-sim/tree/pytorch), Sandia's analog accelerator simulator
+- Built a runtime calibration factor that cancels drift by measuring the array's response to a known input
+- Built a training method that folds that correction into the training loop instead of applying it afterward
+- Brought up the SONOS evaluation board and ran trained weights on real hardware
+
+**Result:** held ResNet-32 accuracy to **~13× the radiation dose** the uncorrected model tolerated, with no accuracy loss on an unirradiated chip.
+
+My code: [tiny_imagenet](https://github.com/bentung12/cross-sim/tree/pytorch/applications/dnn/torch/tiny_imagenet) · [tiny_imagenet_radiation](https://github.com/bentung12/cross-sim/tree/pytorch/applications/dnn/torch/tiny_imagenet_radiation)
 
 ---
 
-## Machine Learning Research Project
-During my senior year capstone, I've worked on improving the resilience of image recognition models using **in-situ analog computing hardware (SONOS)** under increasing amounts of radiation. The [cross-sim](https://github.com/bentung12/cross-sim/tree/pytorch) repository was developed by Sandia Labs to mimic the performance of analog memristive chips such as the SONOS chip in python. I developed multiple image recognition deep learning models using PyTorch and applied multiple training/correction techniques to eventually improve the resilience of the models against radiation by about 10 times!
+### Other
 
-Take a look at these two folders in the repository for more information about my code and results.
-
-[tiny_imagenet](https://github.com/bentung12/cross-sim/tree/pytorch/applications/dnn/torch/tiny_imagenet)
-
-[tiny_imagenet_radiation](https://github.com/bentung12/cross-sim/tree/pytorch/applications/dnn/torch/tiny_imagenet_radiation)
+**[inkjet-printing](https://github.com/bentung12/inkjet-printing)** — MATLAB model solving for the deflection voltage that places each ink droplet, then reconstructing the printed image from the voltage waveform.
